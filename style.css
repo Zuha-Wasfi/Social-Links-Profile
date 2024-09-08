@@ -1,0 +1,153 @@
+html {
+    --c-Green: hsl(75, 94%, 57%);
+    --c-White: hsl(0, 0%, 100%);
+    --c-Grey700: hsl(0, 0%, 20%);
+    --c-Grey800: hsl(0, 0%, 12%);
+    --c-Grey900: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--c-Grey900);
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 315px;
+    background-color: var(--c-Grey800);
+    color: var(--c-White);
+    border-radius: 20px;
+    margin: 150px;
+}
+
+.personal_info, .info, .social_links {
+    text-align: center;
+    font-size: 14px;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: 400;
+}
+#address {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-bottom: 32px;
+    color: var(--c-Green);
+}
+
+.info {
+    padding-bottom: 22px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.social_links {
+    width: 80%;
+    margin-bottom: 20px;
+}
+#github_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-Grey700);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#frontendMentor_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-Grey700);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#linkedin_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-Grey700);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#twitter_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-Grey700);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#instagram_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-Grey700);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#name:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#github_link:hover {
+    background-color: var(--c-Green);
+    color: var(--c-Grey700);
+    cursor: pointer;
+}
+#frontendMentor_link:hover {
+    background-color: var(--c-Green);
+    color: var(--c-Grey700);
+    cursor: pointer;
+}
+#linkedin_link:hover {
+    background-color: var(--c-Green);
+    color: var(--c-Grey700);
+    cursor: pointer;
+}
+#twitter_link:hover {
+    background-color: var(--c-Green);
+    color: var(--c-Grey700);
+    cursor: pointer;
+}
+#instagram_link:hover {
+    background-color: var(--c-Green);
+    color: var(--c-Grey700);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) and (min-width: 1440px) {
+    body {
+        display: block;
+    }
+}
